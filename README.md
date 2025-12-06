@@ -8,7 +8,7 @@ O dashboard foi projetado para transformar dados brutos em insights acionáveis,
 
 Abaixo, a visão geral do painel construído, consolidando dados financeiros e operacionais em uma única tela.
 
-![Sales Report Dashboard](uploaded:desafio-Dio - Power BI.pdf)
+<https://github.com/Soares-remootFR/desafio_Dio-PBI-/blob/main/desafio-Dio%20-%20Power%20BI.pdf/>
 
 🎯 Objetivos da Análise
 
