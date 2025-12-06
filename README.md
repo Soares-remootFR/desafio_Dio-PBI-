@@ -8,9 +8,8 @@ O dashboard foi projetado para transformar dados brutos em insights acionáveis,
 
 Abaixo, a visão geral do painel construído, consolidando dados financeiros e operacionais em uma única tela.
 
-<img width="1269" height="869" alt="Screenshot 2025-11-25 234812" src=https://github.com/Soares-remootFR/desafio_Dio-PBI-/blob/main/desafio-Dio%20-%20Power%20BI.pdf/>
+<img width="1269" height="869" alt="Screenshot 2025-11-25 234812" src= https://github.com/Soares-remootFR/desafio_Dio-PBI-/commit/1d300f7a931a1e2575930f34f6010773ce7f7445 />
 
-<img width="1269" height="869" alt="Screenshot 2025-11-25 234812" src="https://github.com/Soares-remootFR/Insights-Estrategicos-de-Marketing-B2B-/blob/main/1.png" />
 🎯 Objetivos da Análise
 
 Este relatório foi estruturado para responder a questões críticas de negócio:
