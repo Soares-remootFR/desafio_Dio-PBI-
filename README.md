@@ -8,7 +8,7 @@ O dashboard foi projetado para transformar dados brutos em insights acionáveis,
 
 Abaixo, a visão geral do painel construído, consolidando dados financeiros e operacionais em uma única tela.
 
-<img width="1269" height="869" alt="Screenshot 2025-11-25 234812" src= https://github.com/Soares-remootFR/desafio_Dio-PBI-/commit/1d300f7a931a1e2575930f34f6010773ce7f7445 />
+<img width="1269" height="869" alt="Screenshot 2025-11-25 234812" src= "C:\Users\soares_remoot8285\OneDrive\Desktop\Portifolio Power BI\desafio-Dio - Power BI.pdf" />
 
 🎯 Objetivos da Análise
 
