@@ -1,117 +1,105 @@
 Relatório de Análise Financeira e Vendas (Sales Report)
 
-Este projeto de Business Intelligence apresenta um Relatório de Vendas (Sales Report) desenvolvido no Microsoft Power BI. O objetivo principal deste painel é fornecer uma visão macroeconômica dos resultados financeiros da empresa, permitindo a análise de lucros, custos e desempenho por segmentos de mercado e geográficos.
+Este projeto de Business Intelligence apresenta um Relatório de Vendas (Sales Report) desenvolvido no Microsoft Power BI. O objetivo principal deste painel é fornecer uma visão macroeconómica dos resultados financeiros da empresa, permitindo a análise de lucros, custos e desempenho por segmentos de mercado e geográficos.
 
-O dashboard foi projetado para facilitar a tomada de decisão estratégica, oferecendo interatividade através de filtros temporais e botões de navegação entre visualizações.
+O dashboard foi projetado para transformar dados brutos em insights acionáveis, facilitando a tomada de decisão estratégica através de uma interface interativa.
 
 📄 Visualização do Dashboard
 
-Abaixo, a visão geral do painel construído, destacando os principais indicadores de desempenho (KPIs) e distribuições de vendas.
+Abaixo, a visão geral do painel construído, consolidando dados financeiros e operacionais em uma única tela.
 
 ![Sales Report Dashboard](uploaded:desafio-Dio - Power BI.pdf)
 
-Nota: A imagem acima representa a página principal do relatório, consolidando dados financeiros e operacionais.
-
 🎯 Objetivos da Análise
 
-Este relatório foi estruturado para responder às seguintes questões de negócio:
+Este relatório foi estruturado para responder a questões críticas de negócio:
 
-Saúde Financeira: Qual é o faturamento total e qual o impacto dos custos (COGS) e descontos na receita final?
+Saúde Financeira: A empresa está a crescer de forma sustentável considerando custos e descontos?
 
-Sazonalidade: Existem meses com picos de vendas que exigem maior atenção logística ou de estoque?
+Padrões Temporais: Existem momentos do ano onde a operação fica sobrecarregada ou ociosa?
 
-Desempenho por Produto e Segmento: Quais produtos são os "Carros-chefe" e qual segmento de cliente traz o maior retorno?
+Eficiência de Portfólio: Quais produtos e tipos de clientes trazem o maior retorno sobre o investimento?
 
-Presença Global: Como as vendas estão distribuídas entre os diferentes países de atuação?
+Estratégia Geográfica: Onde devemos focar os esforços de expansão internacional?
 
 📊 Detalhamento das Métricas e Visuais
 
 1. KPIs (Indicadores Chave de Desempenho)
 
-Os cartões no topo do dashboard foram escolhidos para fornecer uma leitura rápida da saúde do negócio:
+Os cartões no topo do dashboard servem como um "termómetro" imediato da operação:
 
-Métrica
+Métrica Escolhida
 
-Valor
+O que ela indica
 
-Propósito da Escolha
+Direcionamento Estratégico (Tomada de Decisão)
 
 Total de Vendas
 
-118,73 Mi
+A receita líquida real que entrou no caixa da empresa.
 
-Indica a Receita Líquida. É a métrica principal para entender o fluxo de caixa real da empresa após as deduções.
+Validação de Metas: Define se a estratégia macro funcionou. Se estiver abaixo do esperado, exige revisão imediata das ações comerciais.
 
 Soma de Gross Sales
 
-127,93 Mi
+O potencial máximo de receita antes das deduções.
 
-Representa a Venda Bruta. Comparar este valor com o "Total de Vendas" ajuda a entender o impacto das estratégias de precificação e descontos.
+Política de Preços: Ao comparar com as vendas líquidas, indica se a precificação inicial está adequada ou se está muito dependente de descontos para converter.
 
 Total de Descontos
 
-9,21 Mi
+O valor financeiro que a empresa deixou de ganhar para fechar vendas.
 
-Monitorar este valor é crucial para garantir que as promoções não estejam corroendo excessivamente a margem de lucro.
+Controlo de Margem: Se este valor estiver alto, direciona para uma redução de promoções ou renegociação de políticas de abatimento.
 
 Soma de COGS
 
-101,83 Mi
+Custo das Mercadorias Vendidas (Custo Operacional).
 
-Cost of Goods Sold (Custo das Mercadorias Vendidas). Essencial para calcular a margem bruta e a eficiência operacional.
+Eficiência Operacional: Direciona a necessidade de renegociar com fornecedores ou otimizar a produção para aumentar a margem de lucro bruta.
 
 Unidades Vendidas
 
-1,13 Mi
+A quantidade física de produtos movimentados.
 
-Mede o volume físico de saída, importante para o planejamento de estoque e logística.
+Logística e Stock: Fundamental para dimensionar a capacidade de armazenamento e transporte, independente do valor financeiro das vendas.
 
-2. Análise dos Gráficos
+2. Análise dos Gráficos e Insights
 
-Cada visualização foi selecionada para contar uma parte específica da história dos dados:
+Cada gráfico foi selecionado não apenas para mostrar dados, mas para responder a uma pergunta de negócio específica:
 
 Soma das Vendas por Mês (Gráfico de Área):
 
-Justificativa: O gráfico de área é excelente para mostrar tendências ao longo do tempo e o volume acumulado.
+O que mostra: A tendência de subida ou descida das vendas ao longo do período.
 
-Insight: Observa-se uma tendência de crescimento significativa no segundo semestre, com um pico acentuado em Outubro (22 Mi), sugerindo uma forte sazonalidade que pode estar ligada a fechamentos de contratos governamentais ou demandas de fim de ano.
+Direcionamento: Revela a Sazonalidade. Permite ao gestor antecipar a compra de stock e contratação de mão de obra temporária para os meses de pico, e criar campanhas de marketing agressivas para os meses de baixa procura.
 
 Soma por Segmento (Gráfico de Rosca):
 
-Justificativa: Ideal para mostrar a composição de um todo.
+O que mostra: A dependência da empresa em relação aos diferentes perfis de clientes (Governo, Empresas, Pequenos Negócios, etc.).
 
-Insight: O segmento Government (Governo) é predominante, representando a maior fatia do faturamento, seguido por Small Business. Isso indica uma dependência alta de contratos públicos.
+Direcionamento: Gestão de Risco. Se um segmento domina o gráfico, o negócio está vulnerável. O direcionamento é diversificar a carteira de clientes para não depender exclusivamente de um setor.
 
 Soma de Vendas por Produto (Gráfico de Barras):
 
-Justificativa: Permite um ranking claro e comparação direta entre os itens.
+O que mostra: Um ranking de performance dos produtos, do mais vendido para o menos vendido.
 
-Insight: O produto Paseo é o líder isolado de vendas (33 Mi), seguido pelo VTT. Produtos como Carretera têm desempenho inferior e podem necessitar de revisão estratégica.
+Direcionamento: Gestão de Portfólio. Indica quais produtos são as "estrelas" (que devem receber mais investimento em marketing) e quais são os "abacaxis" (que devem ser descontinuados ou reformulados).
 
 Sales por Country (Treemap):
 
-Justificativa: O Treemap foi escolhido para visualizar a hierarquia e proporção das vendas por país de forma compacta.
+O que mostra: A distribuição geográfica das vendas, onde o tamanho da área representa o volume financeiro.
 
-Insight: A distribuição é relativamente equilibrada entre os principais mercados (EUA, Canadá, França, Alemanha e México), todos girando em torno de 21 a 25 Milhões, indicando uma presença global bem consolidada sem dependência excessiva de um único território.
+Direcionamento: Expansão Territorial. Ajuda a identificar mercados saturados (manutenção) versus mercados com baixo volume mas alto potencial de crescimento (investimento), orientando a alocação de equipas de vendas regionais.
 
 🛠️ Funcionalidades Técnicas
 
-Botões de Alternância (Bookmarks): Foram implementados botões para permitir que o usuário alterne a visualização entre gráficos (Ex: Pie vs Bar e Treemap vs Map), economizando espaço na tela e oferecendo flexibilidade de análise.
+Botões de Navegação (Bookmarks): O relatório utiliza botões interativos para alternar entre diferentes tipos de visualização (ex: ver os segmentos em gráfico de Pizza ou Barras), permitindo uma análise flexível sem poluir o visual.
 
-Filtros de Data: Um slicer temporal permite restringir a análise a períodos específicos (01/09/2013 a 01/12/2014).
-
-💡 Conclusão e Próximos Passos
-
-A análise revela uma empresa com forte atuação no setor governamental e vendas consistentes internacionalmente. Para maximizar os resultados:
-
-Investigar o motivo do pico de vendas em Outubro para replicar o sucesso nos outros meses.
-
-Avaliar a margem de lucro do produto Paseo para garantir que o alto volume de vendas está se traduzindo em lucro real, dado o alto valor de COGS geral.
-
-Desenvolver estratégias para aumentar a participação dos segmentos Midmarket e Channel Partners, diversificando a carteira de clientes.
+Filtros Temporais: O utilizador pode selecionar períodos específicos para analisar o desempenho histórico ou focar em trimestres específicos.
 
 👤 Autor
 
-Projeto Desenvolvido por: Fábio R SOares
+Projeto Desenvolvido por: Fábio R Soares
 
 Conecte-se no LinkedIn: linkedin.com/in/fábio-soares-ti
